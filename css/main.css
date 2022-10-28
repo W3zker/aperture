@@ -371,6 +371,43 @@ header .get_template{
     content: url("../img/image4.svg");
     margin-right: 5px;
 }
+.past{
+    padding: 120px 0px 100px;
+    background-color: #000000;
+}
+.past .wraper{
+    max-width: 1200px;
+    align-items: center;
+    margin: auto;
+}
+.past .holder{
+    max-width: 1168px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 46px;
+}
+.past div h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.past div h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+
 .star{
     min-height: 600px;
     background-image: url(../img/star.jpg);
