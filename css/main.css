@@ -167,6 +167,13 @@ header .get_template{
     color: #C0C0C0;
     margin-bottom: 42px;
 }
+.ui-accordion .ui-accordion-content {
+    background-color: #000000;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
 .what_we_do .holder{
     display: flex;
     justify-content: space-between;
