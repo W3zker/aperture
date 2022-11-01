@@ -169,11 +169,70 @@ header .get_template{
 }
 .ui-accordion .ui-accordion-content {
     background-color: #000000;
-    max-width: 1200px;
+    max-width: 1168px;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    padding: 0px;
+    border: none;
 }
+.ui-accordion .ui-accordion-header {
+    background: transparent;
+    border: none;
+}
+.ui-accordion .ui-accordion-header.ui-state-hover .ui-icon{
+    background-image: none;
+}
+@keyframes slide{
+    0%{
+        top: -4px;
+    }
+    50%{
+        top: 4px;
+    }
+    100%{
+        top: -4px;
+    }
+}
+@keyframes slide_left {
+    0%{
+        left: -15px;
+    }
+    50%{
+        left: 0px;
+    }
+    100%{
+        left: -15px;
+    }
+}
+.ui-state-default .ui-icon, .ui-button:active .ui-icon, .ui-state-active .ui-icon, .ui-button:active .ui-icon {
+    background-image: none;
+    background-position: 0;
+    text-indent: 0;
+    margin: 0;
+    position: relative;
+    top: 0px;
+    left: -10px;
+    display: inline-block;
+    line-height: 14px;
+}
+.ui-state-default .ui-icon, .ui-button:active .ui-icon {
+    animation: slide 1s infinite;
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon {
+    transform: rotate(90deg);
+    animation: slide_left 1s infinite;
+}
+.ui-icon:after{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f078";
+}
+/*.ui-accordion-header .ui-state-active .ui-icon{
+    transform: rotate(0deg);
+    top: -5px;
+    animation: slide 1s infinite;
+}*/
 .what_we_do .holder{
     display: flex;
     justify-content: space-between;
@@ -387,13 +446,58 @@ header .get_template{
     align-items: center;
     margin: auto;
 }
-.past .holder{
+/* .past .holder{
     max-width: 1168px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 46px;
+} */
+.past article{
+    width: 233px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.past .wraper article img{
+    display: inline-block;
+    width: 128px;
+    align-items: center;
+}
+.past .owl-carousel .owl-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.past .owl-carousel button.owl-dot span {
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    background: rgb(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+.past .owl-carousel button.owl-dot {
+    margin-left: 20px;
+}
+.past .owl-carousel button.owl-dot:first-of-type {
+    margin-left: 0;
+}
+.past .owl-carousel button.owl-dot.active span {
+    background: rgb(255, 255, 255);
+}
+/*.past .owl-carousel .owl-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.past .owl-carousel .owl-nav button.owl-prev, .past .owl-carousel .owl-nav button.owl-next {
+    background: #FFFFFF;
+    color: #000000;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    margin-top: -60px;
+}*/
 .past div h2{
     font-family: 'Poppins';
     font-style: normal;
