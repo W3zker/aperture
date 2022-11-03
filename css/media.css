@@ -1,5 +1,42 @@
-@media only screen and (max-width: 768px) {
-    
+@media screen and (max-width: 1200px){
+	.cursor,.cursor2,.cursor3{
+		display: none
+	}
+}
+@media only screen and (max-width: 767px) {
+    header .container{
+        display: block;
+    }
+    .nav {
+        position: fixed;
+        display: block;
+    }
+    .nav-but-wrap{
+        display: inline-block;
+    }
+    .nav__list{
+        display: block;
+    }
+    .nav__list-item{
+        opacity: 0;
+    }
+    header .nav__content li{
+        margin-bottom: 25px;
+        margin-left: 10px;
+        margin-left: 10px;
+    }
+    header .nav__content li:nth-child(2){
+        margin-left: 10px;
+    }
+    .nav__content {
+        position: fixed;
+        visibility: hidden;
+        margin-top: 20px;
+        top: 50%;
+        align-items: center;
+        -webkit-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+    }
 }
 @media only screen and (max-width: 428px) {
     
