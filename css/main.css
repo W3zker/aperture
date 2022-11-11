@@ -777,6 +777,9 @@ body{
 	left: 0;
 	width: 100%;
 }
+.nav__list-item .get_template:hover{
+    color: #181818;
+}
 header .nav__content li{
     margin-left: 32px;
 }
