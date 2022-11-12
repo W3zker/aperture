@@ -2,23 +2,6 @@
     padding: 0%;
     margin: 0%;
 }
-
-header{
-    padding: 30px 0px 29px; 
-    background-color: #181818;
-    position: fixed;
-    width: 100%;
-    z-index: 5;
-}
-header .container{
-    max-width: 1200px; 
-    margin: auto; 
-    display: flex; 
-    justify-content: space-between; 
-    padding: 0 20px 0 32px; 
-    box-sizing: border-box;
-    align-items: center;
-}
 .d_flex{
     display: flex;
     justify-content: space-between;  
@@ -41,7 +24,7 @@ header div nav ul li a{
     color: #FFFFFF;
 }
 header nav ul li:nth-child(2){
-    margin-left: 56px;
+    margin-left: 56px; 
 }
 /* header .get_template{
     padding: 9px 20px 13px;
@@ -56,87 +39,7 @@ header nav ul li:nth-child(2){
     border-radius: 14px;
     height: 42px;
 }   */
-.a-studios{
-    background-image: url("../img/ApStud.jpg");
-    height: 100vh;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    position: relative;
-}
-.a-studios .wraper{
-    max-width: 600px;
-}
-.a-studios .wraper h4{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #C0C0C0;
-}
-.a-studios .wraper h1{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 54px;
-    line-height: 59px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-bottom: 18px;
-}
-.a-studios .wraper p{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    color: #C0C0C0;
-    margin-bottom: 71px;
-}
-.a-studios ul{
-    position: absolute;
-    right: 40px;
-    bottom: 46px;
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-}
-.a-studios ul li{
-    margin-left: 16px;
-}
-.a-studios ul li a{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-.a-studios ul li:nth-child(1)::before{
-    content: url("../img/image1.svg");
-    margin-right: 6px;
-}
-.a-studios ul li:nth-child(2)::before{
-    content: url("../img/image2.svg");
-    margin-right: 6px;
-}
-.a-studios ul li:nth-child(3)::before{
-    content: url("../img/image3.svg");
-    margin-right: 7px;
-}
-.a-studios ul li:nth-child(4)::before{
-    content: url("../img/image4.svg");
-    margin-right: 6px;
-    
-}
-.what_we_do{
+/* .what_we_do{
     padding: 120px 0px 84px;
     background-color: #000000;
     
@@ -166,7 +69,7 @@ header nav ul li:nth-child(2){
     text-align: center;
     color: #C0C0C0;
     margin-bottom: 42px;
-}
+} */
 .ui-accordion .ui-accordion-content {
     background-color: #000000;
     max-width: 1168px;
@@ -227,217 +130,17 @@ header nav ul li:nth-child(2){
     font-weight: 900;
     font-family: "Font Awesome 6 Free";
     content: "\f078";
-}
-/*.ui-accordion-header .ui-state-active .ui-icon{
+} */
+.ui-accordion-header .ui-state-active .ui-icon{
     transform: rotate(0deg);
     top: -5px;
     animation: slide 1s infinite;
-}*/
-.what_we_do .holder{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
 }
-.what_we_do article{
-    max-width: 576px;
-    position: relative;
-    margin-bottom: 16px;
-    
-}
-.what_we_do article img{
-    width: 100%;
-}
-.what_we_do .describe{
-    position: absolute;
-    width: 100%;
-    padding: 0px 30px;
-    box-sizing: border-box;
-    display: flex;
-    align-content: space-between;
-    flex-wrap: wrap;
-    bottom: 0;
-}
-.what_we_do .describe h4{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-bottom: 30px;
-}
-.what_we_do .describe p{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #C0C0C0;
-    margin-bottom: 17px;
-}
-.what_we_do .describe a{
-    position: relative;
-    background: #FFFFFF;
-    border-radius: 14px;
-    padding: 9px 10px 13px 42px;
-    margin-bottom: 30px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    letter-spacing: 0.4px;
-    color: #000000;
-    text-decoration: none;
-    
-}
-.what_we_do div div article div a::before{
-    position: absolute;
-    content: " ";
-    background-color: #000000;
-    height: 32px;
-    width: 32px;
-    border-radius: 50%;
-    left: 4px;
-    top: 5px;
-}
-.sunset{
-    min-height: 600px;
-    background-image: url(../img/sunset.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    position: relative;
-    padding-right: 62px;
-}
-.sunset .description{
-    max-width: 298px;
-}
-.sunset div h5{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-.sunset div p{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #C0C0C0;
-}
-.sunset ul{
-    display: flex;
-    position: absolute;
-    list-style: none;
-    right: 40px;
-    bottom: 45px;
-}
-.sunset ul li{
-    margin-left: 16px;
-    
-}
-.sunset ul li a{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-.sunset ul li:nth-child(1)::before{
-    content: url("../img/image1.svg");
-    margin-right: 6px;
-}
-.sunset ul li:nth-child(2)::before{
-    content: url("../img/image2.svg");
-    margin-right: 6px;
-}
-.sunset ul li:nth-child(3)::before{
-    content: url("../img/image3.svg");
-    margin-right: 7px;
-}
-.sunset ul li:nth-child(4)::before{
-    content: url("../img/image4.svg");
-    margin-right: 5px;
-}
-.monstera{
-    min-height: 600px;
-    background-image: url(../img/monstera.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    position: relative;
-    padding-right: 87px;
-}
-.monstera .description{
-    max-width: 273px;
-}
-.monstera div h5{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-.monstera div p{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #C0C0C0;
-}
-.monstera ul{
-    display: flex;
-    position: absolute;
-    list-style: none;
-    right: 40px;
-    bottom: 45px;
-}
-.monstera ul li{
-    margin-left: 16px;
-}
-.monstera ul li a{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-.monstera ul li:nth-child(1)::before{
-    content: url("../img/image1.svg");
-    margin-right: 6px;
-}
-.monstera ul li:nth-child(2)::before{
-    content: url("../img/image2.svg");
-    margin-right: 6px;
-}
-.monstera ul li:nth-child(3)::before{
-    content: url("../img/image3.svg");
-    margin-right: 7px;
-}
-.monstera ul li:nth-child(4)::before{
-    content: url("../img/image4.svg");
-    margin-right: 5px;
-}
-.past{
+
+
+
+
+/* .past{
     padding: 120px 0px 100px;
     background-color: #000000;
 }
@@ -445,7 +148,7 @@ header nav ul li:nth-child(2){
     max-width: 1200px;
     align-items: center;
     margin: auto;
-}
+} */
 /* .past .holder{
     max-width: 1168px;
     display: flex;
@@ -453,7 +156,7 @@ header nav ul li:nth-child(2){
     align-items: center;
     padding: 0px 46px;
 } */
-.past article{
+/* .past article{
     width: 233px;
     height: 100px;
     display: flex;
@@ -464,7 +167,7 @@ header nav ul li:nth-child(2){
     display: inline-block;
     width: 128px;
     align-items: center;
-}
+} */
 .past .owl-carousel .owl-dots {
     display: flex;
     justify-content: center;
@@ -498,93 +201,6 @@ header nav ul li:nth-child(2){
     height: 28px;
     margin-top: -60px;
 }*/
-.past div h2{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 42px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-bottom: 15px;
-}
-.past div h4{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: center;
-    color: #C0C0C0;
-    margin-bottom: 42px;
-}
-
-.star{
-    min-height: 600px;
-    background-image: url(../img/star.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    position: relative;
-    padding-right: 119px;
-}
-.star .description{
-    max-width: 254px;
-}
-.star div h5{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-.star div p{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #C0C0C0;
-}
-.star ul{
-    display: flex;
-    position: absolute;
-    list-style: none;
-    right: 40px;
-    bottom: 45px;
-}
-.star ul li{
-    margin-left: 16px;
-}
-.star ul li a{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-.star ul li:nth-child(1)::before{
-    content: url("../img/image1.svg");
-    margin-right: 6px;
-}
-.star ul li:nth-child(2)::before{
-    content: url("../img/image2.svg");
-    margin-right: 6px;
-}
-.star ul li:nth-child(3)::before{
-    content: url("../img/image3.svg");
-    margin-right: 7px;
-}
-.star ul li:nth-child(4)::before{
-    content: url("../img/image4.svg");
-    margin-right: 5px;
-}
 
 
 
