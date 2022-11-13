@@ -70,7 +70,7 @@ header nav ul li:nth-child(2){
     color: #C0C0C0;
     margin-bottom: 42px;
 } */
-.ui-accordion .ui-accordion-content {
+/* .ui-accordion .ui-accordion-content {
     background-color: #000000;
     max-width: 1168px;
     margin: auto;
@@ -130,12 +130,12 @@ header nav ul li:nth-child(2){
     font-weight: 900;
     font-family: "Font Awesome 6 Free";
     content: "\f078";
-} */
+} 
 .ui-accordion-header .ui-state-active .ui-icon{
     transform: rotate(0deg);
     top: -5px;
     animation: slide 1s infinite;
-}
+} */
 
 
 
@@ -168,7 +168,7 @@ header nav ul li:nth-child(2){
     width: 128px;
     align-items: center;
 } */
-.past .owl-carousel .owl-dots {
+/* .past .owl-carousel .owl-dots {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -188,7 +188,7 @@ header nav ul li:nth-child(2){
 }
 .past .owl-carousel button.owl-dot.active span {
     background: rgb(255, 255, 255);
-}
+} */
 /*.past .owl-carousel .owl-nav {
     display: flex;
     justify-content: space-between;
@@ -206,7 +206,7 @@ header nav ul li:nth-child(2){
 
 
 
-body{
+/* body{
 	
 	overflow-x: hidden;
 	-webkit-transition: all 300ms linear;
@@ -222,12 +222,12 @@ body{
 }
 .full-height {
 	height: 100vh;
-}
+} */
 
 /* #Navigation
 ================================================== */
  
-.cd-header{
+/* .cd-header{
     position: fixed;
 	width:100%;
 	top:0;
@@ -414,7 +414,7 @@ header .get_template{
     line-height: 20px;
     letter-spacing: 0.4px;
     color: #000000;
-}  
+}   */
 body.nav-active .nav__content {
 	visibility: visible;
 }

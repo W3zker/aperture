@@ -371,6 +371,28 @@ header .container {
   align-items: center;
 }
 
+.past .owl-carousel .owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.past .owl-carousel button.owl-dot {
+  margin-left: 20px;
+}
+.past .owl-carousel button.owl-dot:first-of-type {
+  margin-left: 0;
+}
+.past .owl-carousel button.owl-dot.active span {
+  background: rgb(255, 255, 255);
+}
+.past .owl-carousel button.owl-dot span {
+  display: inline-flex;
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+
 .star {
   min-height: 600px;
   background-image: url(../img/star.jpg);
@@ -436,4 +458,207 @@ header .container {
   line-height: 12px;
   color: #FFFFFF;
   text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+  transition: all 300ms linear;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.over-hide {
+  overflow: hidden;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.cd-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.header-wrapper {
+  position: relative;
+  width: calc(100% - 100px);
+  margin-left: 50px;
+}
+
+.logo-wrap {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 40px;
+  cursor: pointer;
+}
+.logo-wrap a {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  transition: all 0.3s ease-out;
+}
+.logo-wrap a:hover {
+  opacity: 0.9;
+}
+
+.nav-but-wrap {
+  position: relative;
+  display: none;
+  float: right;
+  transition: all 0.3s ease-out;
+}
+
+.menu-icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  z-index: 99;
+  cursor: pointer;
+  display: block;
+}
+
+.menu-icon__line {
+  height: 2px;
+  width: 30px;
+  display: block;
+  background-color: #fff;
+  margin-bottom: 7px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.5s ease;
+}
+
+.menu-icon__line-left {
+  width: 16.5px;
+  transition: all 200ms linear;
+}
+
+.menu-icon__line-right {
+  width: 16.5px;
+  float: right;
+  transition: all 200ms linear;
+}
+
+.menu-icon:hover .menu-icon__line-left, .menu-icon:hover .menu-icon__line-right {
+  width: 30px;
+}
+
+.nav {
+  z-index: 98;
+  left: 0;
+  top: 0;
+}
+.nav:before, .nav:after {
+  content: "";
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(20, 21, 26, 0.6);
+  border-bottom-left-radius: 200%;
+  z-index: -1;
+  transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+  transform: translateX(100%) translateY(-100%);
+}
+
+nav:after {
+  background: rgb(9, 9, 12);
+  transition-delay: 0s;
+}
+nav:before {
+  transition-delay: 0.2s;
+}
+
+.nav__content {
+  position: static;
+  visibility: inherit;
+  top: 0;
+  margin-top: 0;
+  transform: none;
+  width: 100%;
+  text-align: center;
+}
+
+.nav__list {
+  display: flex;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+}
+
+.nav__list-item {
+  position: relative;
+  display: block;
+  transition-delay: 0.8s;
+  opacity: 1;
+  text-align: center;
+  transform: none;
+  transition: opacity 0.2s ease, transform 0.3s ease;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.nav__list-item a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.nav__list-item a:hover {
+  color: rgb(255, 255, 255);
+}
+.nav__list-item a:hover:after {
+  height: 4px;
+  opacity: 1;
+  left: 0;
+  width: 100%;
+}
+
+.nav__list-item.active-nav a {
+  color: rgb(255, 255, 255);
+}
+.nav__list-item.active-nav a:after {
+  height: 4px;
+  opacity: 1;
+  left: 0;
+  width: 100%;
+}
+
+.nav__list-item .get_template:hover {
+  color: #181818;
+}
+
+header .get_template {
+  padding: 9px 20px 13px;
+  background: #FFFFFF;
+  border-radius: 14px;
+  height: 42px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+header .nav__content li {
+  margin-left: 32px;
+}
+header .nav__content li:nth-child(2) {
+  margin-left: 56px;
 }/*# sourceMappingURL=main_preproc.css.map */
